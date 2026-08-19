@@ -1,0 +1,21 @@
+{
+  "name": "new-workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "operators.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1"
+  },
+  "dependencies": {
+    "axios": "^1.19.0",
+    "csv-parse": "^7.0.2",
+    "dotenv": "^17.4.2",
+    "fs": "^0.0.1-security"
+  }
+}

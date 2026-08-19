@@ -1,0 +1,15 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+tests/utils/dev.env
+tests/utils/qa.env
+tests/utils/prod.env
+tests/utils/login.json
+tests/utils/salesforce_login.json
+tests/utils/salesforce.csv

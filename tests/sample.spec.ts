@@ -1,0 +1,11 @@
+import test, { chromium }  from "playwright/test";
+ 
+test ("launch browser" , async ()=>{
+  
+    const browser = await chromium.launch()
+    const context = await browser.newContext()
+    const page = await context.newPage()
+    await page.goto("https://leaftaps.com/opentaps/control/main")
+
+
+});
